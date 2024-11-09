@@ -9,16 +9,34 @@
     <h1>Salary Prediction</h1>
     <form method="POST">
         <label for="education">Education:</label>
-        <input type="text" name="education" required><br><br>
+        <select name="education" required>
+            <option value="High School">High School</option>
+            <option value="Bachelor">Bachelor</option>
+            <option value="Master">Master</option>
+            <option value="PhD">PhD</option>
+        </select><br><br>
 
         <label for="location">Location:</label>
-        <input type="text" name="location" required><br><br>
+        <select name="location" required>
+            <option value="Urban">Urban</option>
+            <option value="Suburban">Suburban</option>
+            <option value="Rural">Rural</option>
+
+        </select><br><br>
 
         <label for="job_title">Job Title:</label>
-        <input type="text" name="job_title" required><br><br>
+        <select name="job_title" required>
+            <option value="Manager">Manager</option>
+            <option value="Director">Director</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Analyst">Analyst</option>
+        </select><br><br>
 
         <label for="gender">Gender:</label>
-        <input type="text" name="gender" required><br><br>
+        <select name="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
 
         <label for="age">Age:</label>
         <input type="number" step="any" name="age" required><br><br>
